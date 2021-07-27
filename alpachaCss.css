@@ -1,3 +1,13 @@
+@import "compass/css3";
+
+*,
+*:after,
+*:before {
+   box-sizing: border-box; 
+}
+
+
+
 body {
     background-color: rgb(3, 25, 32);
   }
@@ -26,14 +36,49 @@ body {
     top: 200px;
   }
 
-  .leftDiv {
-    position:absolute;
-    left: 250px;
-    top: 650px;
-    width: 600px;
-    height: 600px;
+  .rightButton {
+    color: black;
+    text-align:center;
+    font-size:30px;
+    font-family: 'sofia';
+    border-radius: 6px;
+    
+    background-color:rgb(252, 228, 228);
+    
+
+    
     
   } 
+
+  .rightButton:hover {
+    font-size:40px;
+    background-color:wheat;
+    
+  }
+
+  .leftDiv {
+    position:absolute;
+    left: 230px;
+    top: 650px;
+    width: 500px;
+    height: 500px;
+    
+    
+  } 
+
+  .container {
+    position: absolute;
+    bottom:60px;
+    left: -140px;
+    
+    
+  }
+   
+  .image { 
+    position:absolute;
+    z-index: unset;
+    
+  }
 
   .leftButton {
     color: black;
@@ -42,54 +87,29 @@ body {
     font-family: 'sofia';
     border-radius: 30px;
     background-color:rgb(252, 228, 228);
-    position:relative;
-    bottom: -250px;
-    left:-20px;
+    position:absolute;
+    bottom: -410px;
+    left:200px;
     
   } 
 
-  .rightButton {
-    color: black;
-    text-align:right;
-    font-size:25px;
-    font-family: 'sofia';
-    border-radius: 30px;
-    background-color:rgb(252, 228, 228);
-  } 
-
-  .body {
-    left:-210px;
-    right:250px;
-    top:-400px;
-    bottom: -250px;
-    border-radius:40px;
-    position: absolute;
-    width: 600px;
-    Height: 610px;
-    background: rgb(95, 177,255);
-    }
-    
   
-  .forky {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    
-    }
-    .face { 
-    width: 300px;
-    height: 300px;
-    background: color #f0f0f0;;
-    position: absolute;
-    border-radius: 65% 30% 65% 28%;
-    transform: rotate(-45deg);
-    top: -135px;
-    left: -147px;
-    
-    }
+   
+
+  
+  
  
+
+  
     
+    
+         
+  
+  
+
+
+  
+ 
   
     
      
