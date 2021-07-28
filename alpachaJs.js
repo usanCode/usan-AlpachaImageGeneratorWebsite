@@ -1,4 +1,4 @@
-const buttonsContainer = document.getElementById('buttons-container');
+/*const buttonsContainer = document.getElementById('buttons-container');
 const buttonAdder = document.getElementById('buttons-adder');
 
 buttonAdder.addEventListener('click', () => {
@@ -19,4 +19,14 @@ function addButtons(container, quantity) {
   }
   
   buttonsContainer.appendChild(buttons);
+}*/
+ 
+function myFunction(id) {
+  var x = document.getElementById(id);
+  
+  if (x.style.display === "hide") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "hide";
+  }
 }

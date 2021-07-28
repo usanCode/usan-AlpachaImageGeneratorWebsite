@@ -8,7 +8,6 @@
 	</head>
 	<body>
 		<h1>My alpaca Image Generator</h1>
-
         <div class ="leftDiv">
           <div class="container">
          
@@ -17,14 +16,14 @@
               <img src="alpaca/backgrounds/blue50.png" />
             </figure></div>
             
-              <div class="container image"><figure>
+              <div class="container image eye " ><figure>
               <img src="alpaca/eyes/default.png" />
             </figure></div>
               
               <div class="container  image"><figure>
                 <img src="alpaca/ears/default.png" />
               </figure></div>
-                <div class="container  image"><figure>
+                <div class="container image nose"><figure>
                   <img src="alpaca/nose.png" />
                 </figure></div>
                   <div class="container image"><figure>
@@ -35,8 +34,7 @@
                 <img src="alpaca/leg/default.png" />
               </figure></div>
                 
-              
-              <div class="container  image"><figure>
+              <div class="container image mouth"><figure>
                 <img src="alpaca/mouth/default.png" />
                 </figure></div>
               <div class="container  image"><figure>
@@ -45,27 +43,103 @@
                 </div>
               </div>
             
-            
-            
             <button class = "leftButton">DOWNLOAD</button>
 
          </div>
         
-        <h2> Accessorize your alpaca</h2>
-        
+         <h2> Accessorize your alpaca</h2>  
         <div class="rightDiv">
-        
-        <button type="button" id="buttons-adder" class="rightButton">Backgrounds</button>
-        <button type="button" id="buttons-adder" class ="rightButton">Ears</button>
-        <button type="button" id="buttons-adder" class ="rightButton">Eyes</button>
-        <button type="button" id="buttons-adder" class ="rightButton">mouth</button>
-        <button type="button" id="buttons-adder" class ="rightButton">legs</button>
-        <button type="button" id="buttons-adder" class ="rightButton">neck</button>
+          
+        <button type="button" onclick="myFunction('Backgrounds')" class="rightButton">Backgrounds</button>
+        <button type="button" onclick="myFunction('Ears')" class ="rightButton">Ears</button>
+        <button type="button" onclick="myFunction('Hair')" class ="rightButton">Hair</button>
+        <button type="button" onclick="myFunction('Eyes')" class ="rightButton">Eyes</button>
+        <button type="button" onclick="myFunction('Mouth')" class ="rightButton">Mouth</button>
+        <button type="button" onclick="myFunction('Legs')" class ="rightButton">Legs</button>
+        <button type="button" onclick="myFunction('Neck')" class ="rightButton">Neck</button>
+        <button type="button" onclick="myFunction('Accessories')" class ="rightButton">Accessories</button>
         <hr>  
+       <!-- <div id="buttons-container">-->
+
+        <div id="Backgrounds" ><p class="para">Backgrounds</p>
+        <button type="button" class="rightSubButton">Blue50</button>
+        <button type="button" class ="rightSubButton">Blue60</button>
+        <button type="button" class ="rightSubButton">Blue70</button>
+        <button type="button" class ="rightSubButton">Darkblue30</button>
+        <button type="button" class ="rightSubButton">Darkblue50</button>
+        <button type="button" class ="rightSubButton">Darkblue70</button>
+        <button type="button" class="rightSubButton">Green50</button>
+        <button type="button" class ="rightSubButton">Green60</button>
+        <button type="button" class ="rightSubButton">Green70</button>
+        <button type="button" class ="rightSubButton">Grey40</button>
+        <button type="button" class ="rightSubButton">Grey70</button>
+        <button type="button" class ="rightSubButton">Grey80</button>
+        <button type="button" class ="rightSubButton">Red50</button>
+        <button type="button" class ="rightSubButton">Red60</button>
+        <button type="button" class ="rightSubButton">Red70</button>
+        <button type="button" class ="rightSubButton">Yellow50</button>
+        <button type="button" class ="rightSubButton">Yellow60</button>
+        <button type="button" class ="rightSubButton">Yellow70</button>
+      </div>
+        <div id="Ears" ><p class="para">Ears</p>
+          <button type="button" class="rightSubButton">Default</button>
+          <button type="button" class ="rightSubButton">Tilt-backward</button>
+          <button type="button" class ="rightSubButton">Tilt-forward</button>
+      </div>
         
-        <div id="buttons-container">
+      <div id="Hair" ><p class="para">Hair</p>
+        <button type="button" class="rightSubButton">Default</button>
+        <button type="button" class ="rightSubButton">Bang</button>
+        <button type="button" class ="rightSubButton">Curls</button>
+        <button type="button" class="rightSubButton">Elegant</button>
+        <button type="button" class ="rightSubButton">Fancy</button>
+        <button type="button" class ="rightSubButton">Quiff</button>
+        <button type="button" class ="rightSubButton">Short</button>
+
+    </div>
+
+      <div id="Eyes" ><p class="para">Eyes</p> 
+        <button type="button" class="rightSubButton">Default</button>
+        <button type="button" class ="rightSubButton">Angry</button>
+        <button type="button" class ="rightSubButton">Naughty</button>
+        <button type="button" class="rightSubButton">Panda</button>
+        <button type="button" class ="rightSubButton">Smart</button>
+        <button type="button" class ="rightSubButton">Star</button>
+    </div>
+    <div id="Mouth" ><p class="para">Mouth</p>
+      <button type="button" class="rightSubButton">Default</button>
+      <button type="button" class ="rightSubButton">Astonished</button>
+      <button type="button" class ="rightSubButton">Eating</button>
+      <button type="button" class="rightSubButton">Laugh</button>
+      <button type="button" class ="rightSubButton">Tongue</button>
+      
+  </div>
+  <div id="Legs" > <p class="para">Legs</p>
+    <button type="button" class="rightSubButton">Default</button>
+    <button type="button" class ="rightSubButton">Bubble-tea</button>
+    <button type="button" class ="rightSubButton">Cookie</button>
+    <button type="button" class="rightSubButton">Game-console</button>
+    <button type="button" class ="rightSubButton">Tilt-backward</button>
+    <button type="button" class ="rightSubButton">Tilt-forward</button>
+    
+</div>
+<div id="Neck" ><p class="para">Neck</p> 
+  <button type="button" class="rightSubButton">Default</button>
+  <button type="button" class ="rightSubButton">Thick</button>
+  <button type="button" class ="rightSubButton">Bend-backward</button>
+  <button type="button" class ="rightSubButton">Bend-forward</button>
+  
+</div>
+
+<div id="Accessories" ><p class="para">Accessories</p> 
+  <button type="button" class="rightSubButton">Earings</button>
+  <button type="button" class ="rightSubButton">Flower</button>
+  <button type="button" class ="rightSubButton">Glasses</button>
+  <button type="button" class ="rightSubButton">Headphone</button>
+  
+</div>
+
         
-        </div>
         
 <script src="alpachaJs.js"></script>
 		
