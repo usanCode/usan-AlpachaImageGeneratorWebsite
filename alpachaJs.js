@@ -37,28 +37,28 @@ function myFunction(id){
   var x = document.getElementById(id);
   switch (x) {
       case id="Backgrounds":
-        x.style.display === "block";
+        document.getElementById(id).style.display = "block";
         break;
       case id="Ears":
-        x.style.display === "block";
+        document.getElementById(id).style.display = "block";
         break;
       case id="Hair":
-        x.style.display === "block";
+        document.getElementById(id).style.display = "block";
         break;
       case id="Eyes":
-        x.style.display === "block";
+        document.getElementById(id).style.display = "block";
         break;
       case id="Mouth":
-        x.style.display === "block";
+        document.getElementById(id).style.display = "block";
         break;
       case id="Legs":
-        x.style.display === "block";
+        document.getElementById(id).style.display = "block";
         break;
       case  id="Neck":
-        x.style.display === "block";
+        document.getElementById(id).style.display = "block";
         break;
       case  id="Acessories":
-        x.style.display === "block";
+        document.getElementById(id).style.display = "block";
         }
         
      }
