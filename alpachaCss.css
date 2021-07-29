@@ -52,10 +52,6 @@ body {
   
   } 
 
-  .hide { 
-    display: none;
-  }
-
   .rightButton:hover {
     font-size:23px;
     background-color:wheat;
@@ -69,6 +65,7 @@ body {
     font-family: 'sofia';
     border-radius: 15px;
     background-color:rgb(252, 228, 228);
+    
    
   } 
 
@@ -84,10 +81,11 @@ body {
     text-decoration:underline ;
     margin-bottom: 20px;
     
-    
+  }
 
-
-    
+  #Backgrounds , #Ears , #Hair , #Eyes , #Legs , #Mouth ,#Neck , #Accessories { 
+    display: none; 
+  
   }
   .leftDiv {
     position:absolute;

@@ -21,12 +21,45 @@ function addButtons(container, quantity) {
   buttonsContainer.appendChild(buttons);
 }*/
  
+/*
 function myFunction(id) {
   var x = document.getElementById(id);
   
-  if (x.style.display === "hide") {
-    x.style.display = "block";
+    if (x.style.display === "block") {
+    x.style.display = "none";
   } else {
-    x.style.display = "hide";
+    x.style.display = "block";
   }
-}
+}  
+*/
+
+function myFunction(id){
+  var x = document.getElementById(id);
+  switch (x) {
+      case id="Backgrounds":
+        x.style.display === "block";
+        break;
+      case id="Ears":
+        x.style.display === "block";
+        break;
+      case id="Hair":
+        x.style.display === "block";
+        break;
+      case id="Eyes":
+        x.style.display === "block";
+        break;
+      case id="Mouth":
+        x.style.display === "block";
+        break;
+      case id="Legs":
+        x.style.display === "block";
+        break;
+      case  id="Neck":
+        x.style.display === "block";
+        break;
+      case  id="Acessories":
+        x.style.display === "block";
+        }
+        
+     }
+
