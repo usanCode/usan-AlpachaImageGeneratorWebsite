@@ -87,6 +87,9 @@ body {
     display: none; 
   
   }
+  .show{
+    display: block !important; /*Because of the specific off CSS we have to use !important # has more specificity weight than class*/
+  }
   .leftDiv {
     position:absolute;
     left: 230px;
@@ -130,6 +133,8 @@ body {
     
   }
 
+  .show1{display:block;}
+  .hide1{display:none;}
   .leftButton {
     color: black;
     text-align:right;
