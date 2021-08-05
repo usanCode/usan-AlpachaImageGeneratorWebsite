@@ -45,9 +45,11 @@ function myFunction(id){
         }
         
      }
-     const image = document.getElementById('...');
-     function showImg(image) {
-      image.src = '...';
+
+     const image = document.getElementById("picture");
+
+     function showImg() {
+      image.src = "blue50.png";
       //hide previously shown image
       for ( i = 1; i < 18; i++) {
           var obj = document.getElementById( "picture" + i );
